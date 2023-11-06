@@ -1,6 +1,10 @@
 team: Tigers
 
+<<<<<<< HEAD
 manager: keneth
+=======
+manager: debarah
+>>>>>>> conflict-1
 
 coach: grace
 
