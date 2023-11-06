@@ -1,25 +1,11 @@
 team: Tigers
 
-<<<<<<< HEAD
-manager: brenda
+manager: debarah
 
 coach: grace
-=======
-manager: keneth
-
-<<<<<<< HEAD
-coach: ruth
->>>>>>> to-merge
-=======
-coach: grace
->>>>>>> 9d0b22f (edit tigers members)
 
 members:
   - Linda
   - Millian
   - David
   - garge
-<<<<<<< HEAD
-=======
-  - tyler
->>>>>>> 9d0b22f (edit tigers members)
