@@ -1,10 +1,18 @@
 team: Tigers
 
-<<<<<<< HEAD
 manager: keneth
-=======
+
+coach: grace
+
+members:
+  - Linda
+  - Millian
+  - David
+  - garge
+
+team: Tigers
+
 manager: debarah
->>>>>>> conflict-1
 
 coach: grace
 
