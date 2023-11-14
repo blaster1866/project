@@ -2,3 +2,19 @@ secrets.yaml
 
 /client/node_modules
 /server/node_modules
+
+/client/public
+
+client/src/views/AboutView.vue
+client/src/views/HomeView.vue
+client/src/components/HelloWorld.vue
+client/.gitignore
+client/babel.config.js
+server/package.json
+server/package-lock.json
+client/jsconfig.json
+client/package.json
+client/package-lock.json
+client/README.md
+client/vue.config.js
+client/src/assets/logo.png
