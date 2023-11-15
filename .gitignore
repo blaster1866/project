@@ -2,6 +2,7 @@ secrets.yaml
 
 /client/node_modules
 /server/node_modules
+/node_modules
 
 /client/public
 
@@ -16,5 +17,6 @@ client/jsconfig.json
 client/package.json
 client/package-lock.json
 client/README.md
-client/vue.config.js
 client/src/assets/logo.png
+package.json
+package-lock.json
