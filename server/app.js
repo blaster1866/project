@@ -16,6 +16,13 @@ app.use(
   })
 );
 
+app.use(
+  //웹서버에서 요청 데이터를 받으려면 제한 필요함
+  express.json({
+    limit: "50mb",
+  })
+);
+
 //서버실행
 const server = app.listen(3000, () => {
   console.log("server started. port 3000.");
@@ -57,7 +64,7 @@ app.post("/api/logout", async (request, res) => {
 app.post("/api/:alias", async (request, res) => {
   //로그인이 필요 없는 경우
   try {
-    res.send(await req.db(request.params.alias));
+    res.send(await req.db(request.params.alias, request.body.param));
   } catch (err) {
     res.status(500).send({
       error: err,
