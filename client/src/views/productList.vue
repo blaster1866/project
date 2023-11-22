@@ -68,6 +68,7 @@ export default {
     },
 
     goToDetail(product_id) {
+      console.log(product_id);
       this.$router.push({ path: "/detail", query: { product_id: product_id } });
     },
   },

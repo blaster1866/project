@@ -16,10 +16,16 @@ export default {
     },
     //천단위 콤마 찍기
     $numberWithCommas(input) {
+      /*
       if (typeof input === "number") {
         return input.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
       } else {
         return input.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+      */
+      const number = input;
+      if (number) {
+        return number.toLocaleString();
       }
     },
   },
